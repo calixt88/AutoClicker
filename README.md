@@ -1,5 +1,5 @@
 # AutoClicker
-An auto clicker that closely resembles a human and may be able to surpass some anticheat.
+An auto clicker that closely resembles a human's inconsistancies in clicks and may be able to surpass some anticheat.
 This auto clicker is currently in development and will only be used for experimental purposes.
 
 I am currently a software engineering student at Milwuakee School of Engineering. I am using this autoclicker as 
