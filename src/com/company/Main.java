@@ -52,7 +52,11 @@ public class Main {
 
     public static void main(String[] args) throws AWTException, InterruptedException {
         int CLICKS = 2000; //amount of clicks performed before the program ends
+        int iteration = 5;
 
+        //This code completes only one rotation of clicks
+        //If you would like to use the code with "breaks"...
+        //Comment out the for loop code below and uncomment the code below the for loop
         for(int i = 0; i < CLICKS; i++)
         {
             pause();
@@ -61,6 +65,23 @@ public class Main {
             System.out.println("Number of clicks: " + i);
         }
 
+        /*
+
+        Uncomment this code for the program with included breaks.
+        MAKE SURE TO COMMENT OR REMOVE THE FOR LOOP ABOVE
+
+        for(int i = 0; i < iteration; i++) {
+            for(int j = 0; j < CLICKS; j++)
+            {
+                pause();
+                click();
+                //pause();  //Can add another pause for security
+                System.out.println("Number of clicks: " + i);
+            }
+            int sleepyTime = getRandomInteger(350000,400000)
+            Thread.sleep(sleepyTime);
+        }
+        */
 
     }
 
